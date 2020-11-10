@@ -3,14 +3,12 @@ spring:
   application:
     name: dev-config-client
 
-    
-spring:
+
   profiles: test
   application:
     name: test-config-client
     
     
-spring:
   profiles: pro
   application:
     name: pro-config-client
