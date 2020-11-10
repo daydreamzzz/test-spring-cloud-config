@@ -1,19 +1,20 @@
+
+
 spring:
   profiles: dev
   application:
     name: dev-config-client
+       
 ---
 
-spring
+spring:
   profiles: test
   application:
     name: test-config-client
 
 ---
 
-spring
+spring:
   profiles: pro
   application:
     name: pro-config-client
-    
-    
